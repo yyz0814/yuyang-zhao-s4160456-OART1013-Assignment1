@@ -1,0 +1,43 @@
+body{
+    background-color:black;/*I set the background to solid black to create a sense of immersion*/
+    color:white;
+    font-family: -apple-system;/* Use the default Apple system font to give the text a clean look */
+    line-height: 1.6;/* This line height ensures the text isn't too cramped */
+    margin: 0;/* Remove the browser's default margins */
+    padding: 0 20px;
+}
+
+header{
+    text-align: center;/* Centre the title text as learnt in class */
+    padding: 60px;/* I’ve set the top and bottom padding to 60px to prevent the header from looking too crowded */
+    border-bottom: 3px solid #9b4343;/* A thick red line has been added below to separate the content */
+}
+h2 { 
+    font-size: 1.2rem;
+    color: #959595; /* Use grey to distinguish the hierarchy from the main heading */
+    font-weight: 300; /* A thin font, giving a more refined look */
+}
+main {
+    max-width: 800px;/* Limit the maximum width to 800px to prevent lines of text from becoming too long on large screens */
+    margin: 40px auto;/* I want to add some space above and below, and use `auto` to centre the content horizontally */
+}
+section {/*I learnt how to implement cards and interactions from the video platform Bilbil*/
+    margin-bottom: 20px;/* Leave a space between each question block */
+    padding: 30px;/* Leave appropriate spacing within the card */
+    background: #1a1a1a; /* Use a dark grey background to make the card stand out against the black background */
+    border-radius: 40px;/* Exaggerated rounded corners, reminiscent of the UI style of modern apps */
+    transition: transform 1s ease;/* Set the animation duration to 1 second to ensure the movement isn’t too abrupt */
+}
+h3 {
+    color: #9cb9be; /* I’ve used a cool-toned blue-grey to highlight the issue */
+    font-size: 1.4rem;
+    margin-top: 0;/* Remove the default top margin; let the padding of the section control it */
+}
+
+p {
+    color: #ffe4e4;/* A soft, pale pinkish-white, gentler than pure white and not harsh on the eyes */
+    font-size: 1rem;
+}
+section:hover {/*I learnt how to implement cards and interactions from the video platform Bilbil*/
+    transform: translateY(-6px); /* When the mouse hovers over the card, it floats upwards slightly by 6px */
+}
